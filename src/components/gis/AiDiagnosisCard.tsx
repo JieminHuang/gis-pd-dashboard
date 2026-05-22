@@ -15,7 +15,7 @@ const mockDiagnosisResults: DiagnosisResult[] = [
     type: "normal",
     title: "设备运行正常",
     confidence: 98.5,
-    description: "GIS设备局部放电检测未发现异常信号",
+    description: "高压开关设备局部放电检测未发现异常信号",
     timestamp: "2024-01-15 14:32:18",
   },
   {
@@ -37,7 +37,7 @@ const mockDiagnosisResults: DiagnosisResult[] = [
 ];
 
 export default function AiDiagnosisCard() {
-  const [results, setResults] = useState<DiagnosisResult[]>(mockDiagnosisResults);
+  const [results] = useState<DiagnosisResult[]>(mockDiagnosisResults);
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {

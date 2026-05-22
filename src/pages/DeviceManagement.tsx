@@ -4,16 +4,16 @@ export default function DeviceManagement() {
   return (
     <>
       <PageMeta
-        title="GIS设备管理 - GIS局部放电智能诊断平台"
-        description="GIS设备管理页面"
+        title="高压开关设备管理 - 高压开关设备局部放电智能诊断平台"
+        description="高压开关设备管理页面"
       />
 
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-          GIS设备管理
+          高压开关设备管理
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mt-1">
-          管理和监控GIS设备状态
+          管理和监控高压开关设备状态
         </p>
       </div>
 
@@ -30,7 +30,7 @@ export default function DeviceManagement() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                GIS设备管理
+                高压开关设备管理
               </h3>
               <p className="text-gray-500 dark:text-gray-400 text-center max-w-md">
                 设备列表、设备详情、维护记录、设备配置等功能将在此页面展示

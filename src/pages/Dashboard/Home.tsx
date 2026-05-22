@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
       <PageMeta
-        title="GIS局部放电智能诊断平台"
-        description="GIS局部放电智能诊断平台 - 实时监测与AI诊断"
+        title="高压开关设备局部放电智能诊断平台"
+        description="高压开关设备局部放电智能诊断平台 - 实时监测与AI诊断"
       />
 
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-          GIS局部放电智能诊断平台
+          高压开关设备局部放电智能诊断平台
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mt-1">
           实时监测设备状态，AI智能诊断，保障电力设备安全运行

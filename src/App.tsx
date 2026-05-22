@@ -24,6 +24,7 @@ import DiagnosisPage from "./pages/DiagnosisPage";
 import AlarmPage from "./pages/AlarmPage";
 import DataReportPage from "./pages/DataReportPage";
 import SettingPage from "./pages/SettingPage";
+import BreakerDiagnosis from "./pages/breaker";
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
             <Route path="/diagnosis" element={<DiagnosisPage />} />
             <Route path="/alarm" element={<AlarmPage />} />
             <Route path="/data" element={<DataReportPage />} />
+            <Route path="/breaker" element={<BreakerDiagnosis />} />
             <Route path="/setting" element={<SettingPage />} />
 
             {/* Others Page */}

@@ -15,7 +15,7 @@ const mockAlerts: Alert[] = [
     id: "1",
     type: "critical",
     title: "局部放电超标",
-    description: "检测到GIS设备局部放电信号超过安全阈值，建议立即检查",
+    description: "检测到高压开关设备局部放电信号超过安全阈值，建议立即检查",
     timestamp: "2024-01-15 14:32:18",
     equipment: "GIS-001",
     status: "active",
@@ -42,7 +42,7 @@ const mockAlerts: Alert[] = [
     id: "4",
     type: "info",
     title: "设备自检完成",
-    description: "GIS-003设备定期自检已完成，状态正常",
+    description: "高压开关设备定期自检已完成，状态正常",
     timestamp: "2024-01-15 14:00:00",
     equipment: "GIS-003",
     status: "resolved",
@@ -61,7 +61,7 @@ const mockAlerts: Alert[] = [
 export default function AlertPanel() {
   const [alerts, setAlerts] = useState<Alert[]>(mockAlerts);
   const [filter, setFilter] = useState<"all" | "critical" | "warning" | "info">("all");
-  const [statusFilter, setStatusFilter] = useState<"all" | "active" | "acknowledged" | "resolved">("all");
+  const [statusFilter] = useState<"all" | "active" | "acknowledged" | "resolved">("all");
 
   const handleAcknowledge = (id: string) => {
     setAlerts((prev) =>

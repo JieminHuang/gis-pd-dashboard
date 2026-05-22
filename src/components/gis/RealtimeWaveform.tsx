@@ -14,8 +14,8 @@ const generateWaveformData = (length: number) => {
 export default function RealtimeWaveform() {
   const [waveformData, setWaveformData] = useState(() => generateWaveformData(100));
   const [isPlaying, setIsPlaying] = useState(true);
-  const [frequency, setFrequency] = useState(50);
-  const [amplitude, setAmplitude] = useState(1.0);
+  const [frequency] = useState(50);
+  const [amplitude] = useState(1.0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {

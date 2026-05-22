@@ -4,7 +4,7 @@ export default function DataReportPage() {
   return (
     <>
       <PageMeta
-        title="数据报表 - GIS局部放电智能诊断平台"
+        title="数据报表 - 高压开关设备局部放电智能诊断平台"
         description="数据报表页面"
       />
 

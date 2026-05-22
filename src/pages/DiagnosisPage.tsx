@@ -5,7 +5,7 @@ export default function DiagnosisPage() {
   return (
     <>
       <PageMeta
-        title="AI智能诊断 - GIS局部放电智能诊断平台"
+        title="AI智能诊断 - 高压开关设备局部放电智能诊断平台"
         description="AI智能诊断页面"
       />
 

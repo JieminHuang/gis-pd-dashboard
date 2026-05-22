@@ -4,7 +4,7 @@ export default function SettingPage() {
   return (
     <>
       <PageMeta
-        title="系统设置 - GIS局部放电智能诊断平台"
+        title="系统设置 - 高压开关设备局部放电智能诊断平台"
         description="系统设置页面"
       />
 
@@ -28,7 +28,7 @@ export default function SettingPage() {
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">平台名称</label>
                 <input
                   type="text"
-                  defaultValue="GIS局部放电智能诊断平台"
+                  defaultValue="高压开关设备局部放电智能诊断平台"
                   className="w-full px-4 py-2 rounded-lg bg-gray-100 dark:bg-gis-dark-700 border border-gray-200 dark:border-gis-dark-600 text-gray-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-gis-cyan-500/50"
                 />
               </div>

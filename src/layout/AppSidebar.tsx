@@ -50,6 +50,16 @@ const DataIcon = () => (
   </svg>
 );
 
+const BreakerIcon = () => (
+  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <path d="M12 22V2" />
+    <path d="M9 6h6" />
+    <path d="M8 10h8" />
+    <path d="M6 14h12" />
+    <path d="M4 18h16" />
+  </svg>
+);
+
 const SettingIcon = () => (
   <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
     <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" />
@@ -74,7 +84,7 @@ const navItems: NavItem[] = [
   {
     icon: <DeviceIcon />,
     name: "Device",
-    nameCn: "GIS设备管理",
+    nameCn: "高压开关设备管理",
     path: "/device",
   },
   {
@@ -100,6 +110,12 @@ const navItems: NavItem[] = [
     name: "Data",
     nameCn: "数据报表",
     path: "/data",
+  },
+  {
+    icon: <BreakerIcon />,
+    name: "Breaker",
+    nameCn: "断路器诊断",
+    path: "/breaker",
   },
   {
     icon: <SettingIcon />,
@@ -145,7 +161,7 @@ const AppSidebar: React.FC = () => {
                 <DiagnosisIcon />
               </div>
               <div className="flex flex-col">
-                <span className="text-sm font-bold text-white">GIS诊断平台</span>
+                <span className="text-sm font-bold text-white">高压开关设备诊断平台</span>
                 <span className="text-xs text-gray-400">PD Diagnosis</span>
               </div>
             </div>

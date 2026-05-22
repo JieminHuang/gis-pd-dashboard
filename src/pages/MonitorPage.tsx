@@ -5,7 +5,7 @@ export default function MonitorPage() {
   return (
     <>
       <PageMeta
-        title="局部放电监测 - GIS局部放电智能诊断平台"
+        title="局部放电监测 - 高压开关设备局部放电智能诊断平台"
         description="局部放电实时监测页面"
       />
 
@@ -14,7 +14,7 @@ export default function MonitorPage() {
           局部放电监测
         </h1>
         <p className="text-gray-500 dark:text-gray-400 mt-1">
-          实时监测GIS设备局部放电信号
+          实时监测高压开关设备局部放电信号
         </p>
       </div>
 

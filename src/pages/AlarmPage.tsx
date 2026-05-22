@@ -5,7 +5,7 @@ export default function AlarmPage() {
   return (
     <>
       <PageMeta
-        title="告警管理 - GIS局部放电智能诊断平台"
+        title="告警管理 - 高压开关设备局部放电智能诊断平台"
         description="告警管理页面"
       />
 
