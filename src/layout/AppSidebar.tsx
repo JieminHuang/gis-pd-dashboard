@@ -136,7 +136,7 @@ const AppSidebar: React.FC = () => {
 
   return (
     <aside
-      className={`fixed mt-16 flex flex-col lg:mt-0 top-0 px-4 left-0 bg-gis-dark-900 border-r border-gis-dark-700 text-gray-300 h-screen transition-all duration-300 ease-in-out z-50
+      className={`fixed flex flex-col top-0 px-4 left-0 bg-gis-dark-900 border-r border-gis-dark-700 text-gray-300 h-screen transition-all duration-300 ease-in-out z-50
         ${
           isExpanded || isMobileOpen
             ? "w-[260px]"

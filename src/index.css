@@ -220,7 +220,11 @@ layer(base);
     cursor: pointer;
   }
   body {
-    @apply relative font-normal font-outfit z-1 bg-gray-50;
+    @apply relative font-normal font-outfit z-1;
+    background-color: #1e3a5f;
+  }
+  .dark body {
+    background-color: #0a0f1a;
   }
 }
 
