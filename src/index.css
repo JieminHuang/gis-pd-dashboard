@@ -39,122 +39,156 @@ layer(base);
   --color-current: currentColor;
   --color-transparent: transparent;
   --color-white: #ffffff;
-  --color-black: #101828;
+  --color-black: #0a0f1a;
 
-  --color-brand-25: #f2f7ff;
-  --color-brand-50: #ecf3ff;
-  --color-brand-100: #dde9ff;
-  --color-brand-200: #c2d6ff;
-  --color-brand-300: #9cb9ff;
-  --color-brand-400: #7592ff;
-  --color-brand-500: #465fff;
-  --color-brand-600: #3641f5;
-  --color-brand-700: #2a31d8;
-  --color-brand-800: #252dae;
-  --color-brand-900: #262e89;
-  --color-brand-950: #161950;
+  --color-gis-dark-950: #050810;
+  --color-gis-dark-900: #0a0f1a;
+  --color-gis-dark-800: #111827;
+  --color-gis-dark-700: #1a2235;
+  --color-gis-dark-600: #243044;
+  --color-gis-dark-500: #324a67;
+  --color-gis-dark-400: #4a6587;
+  --color-gis-dark-300: #6b8bb8;
+  --color-gis-dark-200: #9ab8d8;
+  --color-gis-dark-100: #c8daf0;
 
-  --color-blue-light-25: #f5fbff;
-  --color-blue-light-50: #f0f9ff;
-  --color-blue-light-100: #e0f2fe;
-  --color-blue-light-200: #b9e6fe;
-  --color-blue-light-300: #7cd4fd;
-  --color-blue-light-400: #36bffa;
-  --color-blue-light-500: #0ba5ec;
-  --color-blue-light-600: #0086c9;
-  --color-blue-light-700: #026aa2;
-  --color-blue-light-800: #065986;
-  --color-blue-light-900: #0b4a6f;
-  --color-blue-light-950: #062c41;
+  --color-gis-cyan-500: #00d4ff;
+  --color-gis-cyan-400: #4de8ff;
+  --color-gis-cyan-600: #00a8cc;
+  --color-gis-cyan-300: #8cf0ff;
+  --color-gis-cyan-200: #c5f7ff;
 
-  --color-gray-25: #fcfcfd;
-  --color-gray-50: #f9fafb;
-  --color-gray-100: #f2f4f7;
-  --color-gray-200: #e4e7ec;
-  --color-gray-300: #d0d5dd;
-  --color-gray-400: #98a2b3;
-  --color-gray-500: #667085;
-  --color-gray-600: #475467;
-  --color-gray-700: #344054;
-  --color-gray-800: #1d2939;
-  --color-gray-900: #101828;
-  --color-gray-950: #0c111d;
-  --color-gray-dark: #1a2231;
+  --color-gis-green-500: #00ff88;
+  --color-gis-green-400: #4dffaa;
+  --color-gis-green-600: #00cc6a;
+  --color-gis-green-300: #8cffc5;
 
-  --color-orange-25: #fffaf5;
-  --color-orange-50: #fff6ed;
-  --color-orange-100: #ffead5;
-  --color-orange-200: #fddcab;
-  --color-orange-300: #feb273;
-  --color-orange-400: #fd853a;
-  --color-orange-500: #fb6514;
-  --color-orange-600: #ec4a0a;
-  --color-orange-700: #c4320a;
-  --color-orange-800: #9c2a10;
-  --color-orange-900: #7e2410;
-  --color-orange-950: #511c10;
+  --color-gis-yellow-500: #ffcc00;
+  --color-gis-yellow-400: #ffdd4d;
+  --color-gis-yellow-600: #cc9900;
 
-  --color-success-25: #f6fef9;
-  --color-success-50: #ecfdf3;
-  --color-success-100: #d1fadf;
-  --color-success-200: #a6f4c5;
-  --color-success-300: #6ce9a6;
-  --color-success-400: #32d583;
-  --color-success-500: #12b76a;
-  --color-success-600: #039855;
-  --color-success-700: #027a48;
-  --color-success-800: #05603a;
-  --color-success-900: #054f31;
-  --color-success-950: #053321;
+  --color-gis-red-500: #ff3366;
+  --color-gis-red-400: #ff6688;
+  --color-gis-red-600: #cc2952;
 
-  --color-error-25: #fffbfa;
-  --color-error-50: #fef3f2;
-  --color-error-100: #fee4e2;
-  --color-error-200: #fecdca;
-  --color-error-300: #fda29b;
-  --color-error-400: #f97066;
-  --color-error-500: #f04438;
-  --color-error-600: #d92d20;
-  --color-error-700: #b42318;
-  --color-error-800: #912018;
-  --color-error-900: #7a271a;
-  --color-error-950: #55160c;
+  --color-gis-purple-500: #9966ff;
+  --color-gis-purple-400: #b388ff;
+  --color-gis-purple-600: #7a4dd9;
 
-  --color-warning-25: #fffcf5;
-  --color-warning-50: #fffaeb;
-  --color-warning-100: #fef0c7;
-  --color-warning-200: #fedf89;
-  --color-warning-300: #fec84b;
-  --color-warning-400: #fdb022;
-  --color-warning-500: #f79009;
-  --color-warning-600: #dc6803;
-  --color-warning-700: #b54708;
-  --color-warning-800: #93370d;
-  --color-warning-900: #7a2e0e;
-  --color-warning-950: #4e1d09;
+  --color-brand-25: #0a1a2a;
+  --color-brand-50: #0f2538;
+  --color-brand-100: #1a3a55;
+  --color-brand-200: #2a5070;
+  --color-brand-300: #3a6a8f;
+  --color-brand-400: #4a84ad;
+  --color-brand-500: #00d4ff;
+  --color-brand-600: #00a8cc;
+  --color-brand-700: #0080aa;
+  --color-brand-800: #006688;
+  --color-brand-900: #004d66;
+  --color-brand-950: #003344;
 
-  --color-theme-pink-500: #ee46bc;
+  --color-blue-light-25: #0a1a2a;
+  --color-blue-light-50: #0f2538;
+  --color-blue-light-100: #1a3a55;
+  --color-blue-light-200: #2a5070;
+  --color-blue-light-300: #3a6a8f;
+  --color-blue-light-400: #4a84ad;
+  --color-blue-light-500: #00d4ff;
+  --color-blue-light-600: #00a8cc;
+  --color-blue-light-700: #0080aa;
+  --color-blue-light-800: #006688;
+  --color-blue-light-900: #004d66;
+  --color-blue-light-950: #003344;
 
-  --color-theme-purple-500: #7a5af8;
+  --color-gray-25: #0a0f1a;
+  --color-gray-50: #111827;
+  --color-gray-100: #1a2235;
+  --color-gray-200: #243044;
+  --color-gray-300: #324a67;
+  --color-gray-400: #4a6587;
+  --color-gray-500: #6b8bb8;
+  --color-gray-600: #9ab8d8;
+  --color-gray-700: #b8cee8;
+  --color-gray-800: #d4e4f5;
+  --color-gray-900: #e8f2fc;
+  --color-gray-950: #f4f9ff;
+  --color-gray-dark: #0a0f1a;
 
-  --shadow-theme-md: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
-    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
-  --shadow-theme-lg: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
-    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
-  --shadow-theme-sm: 0px 1px 3px 0px rgba(16, 24, 40, 0.1),
-    0px 1px 2px 0px rgba(16, 24, 40, 0.06);
-  --shadow-theme-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-  --shadow-theme-xl: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
-    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
-  --shadow-datepicker: -5px 0 0 #262d3c, 5px 0 0 #262d3c;
-  --shadow-focus-ring: 0px 0px 0px 4px rgba(70, 95, 255, 0.12);
-  --shadow-slider-navigation: 0px 1px 2px 0px rgba(16, 24, 40, 0.1),
-    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
-  --shadow-tooltip: 0px 4px 6px -2px rgba(16, 24, 40, 0.05),
-    -8px 0px 20px 8px rgba(16, 24, 40, 0.05);
+  --color-orange-25: #1a0f0a;
+  --color-orange-50: #27150f;
+  --color-orange-100: #3d2015;
+  --color-orange-200: #5c2d1f;
+  --color-orange-300: #803d28;
+  --color-orange-400: #a64d32;
+  --color-orange-500: #ff6b35;
+  --color-orange-600: #e55a2b;
+  --color-orange-700: #cc4a23;
+  --color-orange-800: #b33e1f;
+  --color-orange-900: #99331b;
+  --color-orange-950: #662212;
 
-  --drop-shadow-4xl: 0 35px 35px rgba(0, 0, 0, 0.25),
-    0 45px 65px rgba(0, 0, 0, 0.15);
+  --color-success-25: #0a1a12;
+  --color-success-50: #0f271a;
+  --color-success-100: #1a3d28;
+  --color-success-200: #27573a;
+  --color-success-300: #37774d;
+  --color-success-400: #4a9964;
+  --color-success-500: #00ff88;
+  --color-success-600: #00cc6a;
+  --color-success-700: #009952;
+  --color-success-800: #007740;
+  --color-success-900: #00552e;
+  --color-success-950: #00331c;
+
+  --color-error-25: #1a0a0f;
+  --color-error-50: #270f15;
+  --color-error-100: #3d151f;
+  --color-error-200: #5c1f2b;
+  --color-error-300: #80283a;
+  --color-error-400: #a6324a;
+  --color-error-500: #ff3366;
+  --color-error-600: #e52d5c;
+  --color-error-700: #cc2752;
+  --color-error-800: #b32247;
+  --color-error-900: #991d3d;
+  --color-error-950: #661328;
+
+  --color-warning-25: #1a160a;
+  --color-warning-50: #27200f;
+  --color-warning-100: #3d3215;
+  --color-warning-200: #5c4b1f;
+  --color-warning-300: #806528;
+  --color-warning-400: #a68332;
+  --color-warning-500: #ffcc00;
+  --color-warning-600: #e5b800;
+  --color-warning-700: #cc9900;
+  --color-warning-800: #b38000;
+  --color-warning-900: #996600;
+  --color-warning-950: #664400;
+
+  --color-theme-pink-500: #ff66aa;
+
+  --color-theme-purple-500: #9966ff;
+
+  --shadow-theme-md: 0px 4px 8px -2px rgba(0, 212, 255, 0.1),
+    0px 2px 4px -2px rgba(0, 212, 255, 0.05);
+  --shadow-theme-lg: 0px 12px 16px -4px rgba(0, 212, 255, 0.1),
+    0px 4px 6px -2px rgba(0, 212, 255, 0.05);
+  --shadow-theme-sm: 0px 1px 3px 0px rgba(0, 212, 255, 0.1),
+    0px 1px 2px 0px rgba(0, 212, 255, 0.05);
+  --shadow-theme-xs: 0px 1px 2px 0px rgba(0, 212, 255, 0.05);
+  --shadow-theme-xl: 0px 20px 24px -4px rgba(0, 212, 255, 0.12),
+    0px 8px 8px -4px rgba(0, 212, 255, 0.06);
+  --shadow-datepicker: -5px 0 0 #1a2235, 5px 0 0 #1a2235;
+  --shadow-focus-ring: 0px 0px 0px 4px rgba(0, 212, 255, 0.2);
+  --shadow-slider-navigation: 0px 1px 2px 0px rgba(0, 212, 255, 0.1),
+    0px 1px 3px 0px rgba(0, 212, 255, 0.1);
+  --shadow-tooltip: 0px 4px 6px -2px rgba(0, 212, 255, 0.1),
+    -8px 0px 20px 8px rgba(0, 212, 255, 0.08);
+
+  --drop-shadow-4xl: 0 35px 35px rgba(0, 212, 255, 0.15),
+    0 45px 65px rgba(0, 212, 255, 0.1);
 
   --z-index-1: 1;
   --z-index-9: 9;
@@ -195,29 +229,29 @@ layer(base);
 }
 
 @utility menu-item-active {
-  @apply bg-brand-50 text-brand-500 dark:bg-brand-500/[0.12] dark:text-brand-400;
+  @apply bg-gis-cyan-500/15 text-gis-cyan-400;
 }
 
 @utility menu-item-inactive {
-  @apply text-gray-700 hover:bg-gray-100 group-hover:text-gray-700 dark:text-gray-300 dark:hover:bg-white/5 dark:hover:text-gray-300;
+  @apply text-gray-400 hover:bg-gis-dark-700/50 hover:text-gray-200;
 }
 
 @utility menu-item-icon {
-  @apply text-gray-500 group-hover:text-gray-700 dark:text-gray-400;
+  @apply text-gray-500 group-hover:text-gray-300;
 }
 
 @utility menu-item-icon-active {
-  @apply text-brand-500 dark:text-brand-400;
+  @apply text-gis-cyan-400;
 }
 
 @utility menu-item-icon-size {
   & svg {
-    @apply !size-6;
+    @apply !size-5;
   }
 }
 
 @utility menu-item-icon-inactive {
-  @apply text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-300;
+  @apply text-gray-500 group-hover:text-gray-300;
 }
 
 @utility menu-item-arrow {
@@ -225,11 +259,11 @@ layer(base);
 }
 
 @utility menu-item-arrow-active {
-  @apply rotate-180 text-brand-500 dark:text-brand-400;
+  @apply rotate-180 text-gis-cyan-400;
 }
 
 @utility menu-item-arrow-inactive {
-  @apply text-gray-500 group-hover:text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-300;
+  @apply text-gray-500 group-hover:text-gray-300;
 }
 
 @utility menu-dropdown-item {
@@ -237,23 +271,23 @@ layer(base);
 }
 
 @utility menu-dropdown-item-active {
-  @apply bg-brand-50 text-brand-500 dark:bg-brand-500/[0.12] dark:text-brand-400;
+  @apply bg-gis-cyan-500/15 text-gis-cyan-400;
 }
 
 @utility menu-dropdown-item-inactive {
-  @apply text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-white/5;
+  @apply text-gray-400 hover:bg-gis-dark-700/50 hover:text-gray-200;
 }
 
 @utility menu-dropdown-badge {
-  @apply block rounded-full px-2.5 py-0.5 text-xs font-medium uppercase text-brand-500 dark:text-brand-400;
+  @apply block rounded-full px-2.5 py-0.5 text-xs font-medium uppercase text-gis-cyan-400;
 }
 
 @utility menu-dropdown-badge-active {
-  @apply bg-brand-100 dark:bg-brand-500/20;
+  @apply bg-gis-cyan-500/20;
 }
 
 @utility menu-dropdown-badge-inactive {
-  @apply bg-brand-50 group-hover:bg-brand-100 dark:bg-brand-500/15 dark:group-hover:bg-brand-500/20;
+  @apply bg-gis-cyan-500/10 group-hover:bg-gis-cyan-500/20;
 }
 @utility no-scrollbar {
   /* Chrome, Safari and Opera */

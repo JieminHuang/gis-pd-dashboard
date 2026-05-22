@@ -18,6 +18,12 @@ import Blank from "./pages/Blank";
 import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
+import DeviceManagement from "./pages/DeviceManagement";
+import MonitorPage from "./pages/MonitorPage";
+import DiagnosisPage from "./pages/DiagnosisPage";
+import AlarmPage from "./pages/AlarmPage";
+import DataReportPage from "./pages/DataReportPage";
+import SettingPage from "./pages/SettingPage";
 
 export default function App() {
   return (
@@ -28,6 +34,13 @@ export default function App() {
           {/* Dashboard Layout */}
           <Route element={<AppLayout />}>
             <Route index path="/" element={<Home />} />
+            <Route path="/dashboard" element={<Home />} />
+            <Route path="/device" element={<DeviceManagement />} />
+            <Route path="/monitor" element={<MonitorPage />} />
+            <Route path="/diagnosis" element={<DiagnosisPage />} />
+            <Route path="/alarm" element={<AlarmPage />} />
+            <Route path="/data" element={<DataReportPage />} />
+            <Route path="/setting" element={<SettingPage />} />
 
             {/* Others Page */}
             <Route path="/profile" element={<UserProfiles />} />
